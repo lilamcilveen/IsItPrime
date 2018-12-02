@@ -3,7 +3,7 @@ Purpose of software:
 	based around prime numbers, and each program has it's own functionality.
 	
 The learning purpose:
-	Process spawning, and differentiating between parent and child processes,
+	Process spawning, and differentiating between parent and child processes.
 	Usage of signals and function pointers.
 	Inter-process communication.
 	Program morphing.
