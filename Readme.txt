@@ -1,6 +1,12 @@
 Purpose of software:
 	Reads unsigned numbers from binary files, and determines which numbers are prime. This assignment has different parts
 	based around prime numbers, and each program has it's own functionality.
+	
+The learning purpose:
+	Process spawning, and differentiating between parent and child processes,
+	Usage of signals and function pointers.
+	Inter-process communication.
+	Program morphing.
 
 Developer:
 	Iqra McIlveen
