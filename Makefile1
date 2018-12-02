@@ -1,0 +1,8 @@
+singlePrime: singlePrime.o
+	gcc -g singlePrime.o -o singleMorph
+
+singlePrime.o: singlePrime.c
+	gcc -g -c singlePrime.c
+
+clean:
+	rm -f singlePrime.o singleMorph

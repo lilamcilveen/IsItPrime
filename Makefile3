@@ -1,0 +1,8 @@
+multiSpawn: multiSpawn.o
+	gcc -g multiSpawn.o -o multiSpawn
+
+multiSpawn.o: multiSpawn.c
+	gcc -g -c multiSpawn.c
+
+clean:
+	rm -f multiSpawn.o multiSpawn

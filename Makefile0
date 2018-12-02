@@ -1,0 +1,8 @@
+isPrime: isPrime.o
+	gcc -g isPrime.o -o isPrime
+
+isPrime.o: isPrime.c
+	gcc -g -c isPrime.c
+
+clean:
+	rm -f isPrime.o isPrime

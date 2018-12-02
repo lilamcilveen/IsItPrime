@@ -1,0 +1,10 @@
+bonus1: bonus1.o
+	gcc -g bonus1.o -o bonus1
+
+bonus1.o: bonus1.c
+	gcc -g -c bonus1.c
+
+clean:
+	rm -f bonus1.o bonus1
+
+

@@ -1,0 +1,10 @@
+singleSpawn: singleSpawn.o
+	gcc -g singleSpawn.o -o singleSpawn
+
+singleSpawn.o: singleSpawn.c
+	gcc -g -c singleSpawn.c
+
+clean:
+	rm -f singleSpawn.o singleSpawn
+
+
