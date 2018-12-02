@@ -7,6 +7,7 @@ The learning purpose:
 	Usage of signals and function pointers.
 	Inter-process communication.
 	Program morphing.
+	Experiment with code reuse.
 
 Developer:
 	Iqra McIlveen
